@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Main {
+    background: linear-gradient(135deg , #dafbff, #dafbff);
+    
+}
+
+.Navigation li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 0px 15px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(143, 84, 53);
+}
+
+.Navigation .logo {
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 44%;
+    margin-top: 38px;
+    font-size: 30px;
+    color: rgb(143, 84, 53);
+
+
+    
+}
+.middle .image1{
+    
+    border-width: 80px;
+    width: 200px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -300px;
+    border-radius: 60%;
+    border:solid 50px #CAE5E7;
+
+    
+}
+
+.middle{
+    padding: 70px;
+    
+}
+.main-text .sub-logo {
+    padding: 50px 0 30px 40px;
+    font-size: 20px;
+    padding-right: 10%;
+    color: rgb(143, 84, 53);
+   
+
+}
+.middle .sub-logo::after{
+    content: '';
+    position: relative;
+    height: 3px;
+    width: 35px;
+    left: 70px;
+    bottom: 430px;
+    background: linear-gradient(135deg , #CAE5E7, rgb(143, 84, 53));
+
+}
+
+.title {
+    font-size: 60px;
+    color: rgb(143, 84, 53);
+
+}
+.sentence{
+    font-weight: 50px;
+    padding: 30px 0 30px 0px;
+    font-size: 20px;
+    color: rgb(143, 84, 53);
+}
+
+.main-text .getStarted {
+    background-color: rgb(143, 84, 53);
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.main-text .play-button{
+    border-radius: 50px;
+    padding: 6px 6px 6px 12px;
+    background-color: rgb(143, 84, 53);
+    margin: 32px 10px ;
+}
+.sub-second {
+    margin: 50px;
+    display: flex;
+}
+.header{
+    font-size: 45px;
+    color: rgb(143, 84, 53);
+}
+.sentence2{
+    margin: 12px 0 0 30%;
+    font-size: 20px;
+    color: rgb(143, 84, 53);
+}
+.firstline{
+    display: flex;
+    margin: 130px;
+    padding: 0 10px 0 20px;
+    
+}
+.secondline{
+    display: flex;
+    margin: 130px;
+    padding: 0 10px 0 20px;
+    
+}
+.assistant {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.ambulance  {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.Dentalcare {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.surgical {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.parturition  {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.pethostal {
+    margin: 10px;
+    background-color: azure;
+    padding: 25px;
+}
+.third-section{
+    background-color: #dafbff;
+   height: 400px;  
+    width: 100%;
+}
+.sentence3{
+    padding: 10px;
+    margin: -285px 0 0 49%;     
+}
+.bestVeterinarians{
+    margin: 10px;
+    font-size: 40px;
+}
+.image2{
+    border-width: 80px;
+    width: 200px;
+    height: 200px;
+    margin-right: 800px;
+    margin-top: 300px;
+    border-radius: 60%;
+    border:solid 50px #CAE5E7;
+
+}
+.paragraph{
+    font-size: 20px;
+    font-weight: 20px;
+    padding-left: -10px;
+}
+.bothparagraph{
+    display: flex;
+    margin: 10px;
+    /* padding: 0 10px 0 20px; */
+}
+.comment1 {
+    margin: 10px;
+    background-color: azure;
+    padding: 20px 90px 0 90px;
+}
+.comment2 {
+    margin: 10px;
+    margin-left: 180px;
+    background-color: azure;
+    padding: 20px 90px 0 90px;
+}
+.comment1 h3, p {
+    padding: 20px 0 15px 0;
+}
+.comment2 h3, p {
+    padding: 20px 0 15px 0;
+}
+.qualified{
+    font-size: 42px;
+    margin-left: 13%;
+    padding: 20px;
+}
+.large{
+    display: flex;
+    margin-left: 13%;
+}
+.first-image{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 252px;
+    margin: 20px;
+}
+  
+.first-image:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+.second-image{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 252px;
+    margin: 20px;
+    margin-left: 20px;
+}
+  
+.second-image:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.third-image{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 252px;
+    margin: 20px;
+    margin-left: 20px;
+}
+  
+.third-image:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button-section{
+    background-color: #dafbff;
+    margin: 50px;
+    padding: 50px;
+    height: 200px;
+    width: 855px;
+    margin-left: 190px;
+    border-radius: 20px;
+}
+.upper-section h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: -570px;
+    margin: 15px;
+    margin-bottom: 35px;
+
+}
+.lower-section input{
+    width: 500px;
+    height: 55px;
+    margin-left: 190px;
+    padding: 10px;
+}
+.holder-button{
+    background-color: rgb(143, 84, 53);
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: -17.5%;
+    margin-bottom: 50px;
+}
+.footer-content{
+    display: flex;
+    background-color: #dafbff;
+
+}
+
+.comment1 .comment-image1{
+    border-radius: 50%;
+}
+.person-name{
+    margin-left: 48px;
+    margin-top: -45px;
+}
+.stars{
+    padding: 20px;
+}
+.footer-content li {
+    list-style: none;
+    margin: 20px;
+    font-size: 18px;
+}
+.yourpet {
+    margin: 30px;
+    padding: 20px;
+    margin-left: 180px;
+}
+.product{
+    margin: 30px;
+    padding: 20px;
+}
+.community{
+    margin: 30px;
+    padding: 20px;
+}
+.about{
+    margin: 30px;
+    padding: 20px;
+}
+.footer-content h5{
+    font-size: 20px;
+    margin-left: 12px;
+}
+.icons{
+    margin: 10px;
+    padding-right: 5px;
+}
+.contactus {
+    background-color: rgb(143, 84, 53);
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
